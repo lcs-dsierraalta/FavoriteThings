@@ -11,6 +11,9 @@
 		394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF68C25CC4089001AC9A7 /* ContentView.swift */; };
 		394CF68F25CC4098001AC9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CF68E25CC4098001AC9A7 /* Assets.xcassets */; };
 		394CF69225CC4098001AC9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CF69125CC4098001AC9A7 /* Preview Assets.xcassets */; };
+		394CF69E25CDA8EA001AC9A7 /* Videogames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF69D25CDA8EA001AC9A7 /* Videogames.swift */; };
+		394CF6A225CDA905001AC9A7 /* FriedChicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF6A125CDA905001AC9A7 /* FriedChicken.swift */; };
+		394CF6A525CDA93B001AC9A7 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF6A425CDA93B001AC9A7 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		394CF68E25CC4098001AC9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394CF69125CC4098001AC9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		394CF69325CC4098001AC9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394CF69D25CDA8EA001AC9A7 /* Videogames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videogames.swift; sourceTree = "<group>"; };
+		394CF6A125CDA905001AC9A7 /* FriedChicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriedChicken.swift; sourceTree = "<group>"; };
+		394CF6A425CDA93B001AC9A7 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				394CF68E25CC4098001AC9A7 /* Assets.xcassets */,
 				394CF69325CC4098001AC9A7 /* Info.plist */,
 				394CF69025CC4098001AC9A7 /* Preview Content */,
+				394CF69D25CDA8EA001AC9A7 /* Videogames.swift */,
+				394CF6A125CDA905001AC9A7 /* FriedChicken.swift */,
+				394CF6A425CDA93B001AC9A7 /* Anime.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394CF6A225CDA905001AC9A7 /* FriedChicken.swift in Sources */,
+				394CF6A525CDA93B001AC9A7 /* Anime.swift in Sources */,
 				394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */,
 				394CF68B25CC4089001AC9A7 /* FavoriteThingsApp.swift in Sources */,
+				394CF69E25CDA8EA001AC9A7 /* Videogames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
