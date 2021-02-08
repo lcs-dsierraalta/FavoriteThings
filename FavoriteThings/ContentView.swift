@@ -17,39 +17,17 @@ struct ContentView: View {
                 NavigationLink(
                     destination: Videogames(),
                     label: {
-                        HStack{
-                            Text("🎮")
-                                .font(.largeTitle)
-                            
-                            VStack(alignment: .leading){
-                                Text("Videogames")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                
-                                Text("A fun way to pass time")
-                                    .font(.subheadline)
-
-                            }
-                        }
+                        ListItem(hint: "🎮",
+                                 title: "Videogames",
+                                 summary: "A fun way to pass time")
                     })
                 
                 NavigationLink(
                     destination: FriedChicken(),
                     label: {
-                        HStack{
-                            Text("🍗")
-                                .font(.largeTitle)
-                            
-                            VStack(alignment: .leading){
-                                Text("Fried Chicken")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                
-                                Text("Tasty chicken")
-                                    .font(.subheadline)
-
-                            }
-                        }
+                        ListItem(hint: "🎮",
+                                 title: "Videogames",
+                                 summary: "A fun way to pass time")
                     })
                 
                 NavigationLink(
@@ -87,3 +65,26 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
+struct ListItem: View {
+    var hint: String
+    var title: String
+    var summary: String
+    
+    var body: some View {
+        HStack{
+            Text(hint)
+                .font(.largeTitle)
+            
+            VStack(alignment: .leading){
+                Text(title)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                Text(summary)
+                    .font(.subheadline)
+                
+            }
+        }
+    }
+}
