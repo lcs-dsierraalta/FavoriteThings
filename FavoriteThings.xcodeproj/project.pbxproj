@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3908691325D1A3290084D007 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908691225D1A3290084D007 /* ListItem.swift */; };
 		394CF68B25CC4089001AC9A7 /* FavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF68A25CC4089001AC9A7 /* FavoriteThingsApp.swift */; };
 		394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF68C25CC4089001AC9A7 /* ContentView.swift */; };
 		394CF68F25CC4098001AC9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CF68E25CC4098001AC9A7 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3908691225D1A3290084D007 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		394CF68725CC4089001AC9A7 /* FavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394CF68A25CC4089001AC9A7 /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
 		394CF68C25CC4089001AC9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				394CF69D25CDA8EA001AC9A7 /* Videogames.swift */,
 				394CF6A125CDA905001AC9A7 /* FriedChicken.swift */,
 				394CF6A425CDA93B001AC9A7 /* Anime.swift */,
+				3908691225D1A3290084D007 /* ListItem.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3908691325D1A3290084D007 /* ListItem.swift in Sources */,
 				394CF6A225CDA905001AC9A7 /* FriedChicken.swift in Sources */,
 				394CF6A525CDA93B001AC9A7 /* Anime.swift in Sources */,
 				394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */,

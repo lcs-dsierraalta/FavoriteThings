@@ -25,28 +25,17 @@ struct ContentView: View {
                 NavigationLink(
                     destination: FriedChicken(),
                     label: {
-                        ListItem(hint: "🎮",
-                                 title: "Videogames",
-                                 summary: "A fun way to pass time")
+                        ListItem(hint: "🍗",
+                                 title: "Fried Chicken",
+                                 summary: "Tastty chicken")
                     })
                 
                 NavigationLink(
                     destination: Anime(),
                     label: {
-                        HStack{
-                            Text("👺")
-                                .font(.largeTitle)
-                            
-                            VStack(alignment: .leading){
-                                Text("Anime")
-                                    .font(.title2)
-                                    .fontWeight(.bold)
-                                
-                                Text("Interesting stories")
-                                    .font(.subheadline)
-
-                            }
-                        }
+                        ListItem(hint: "👺",
+                                 title: "Anime",
+                                 summary: "Interestng stories")
                     })
                 
             }
@@ -62,29 +51,5 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
         ContentView()
             .preferredColorScheme(.light)
-    }
-}
-
-
-struct ListItem: View {
-    var hint: String
-    var title: String
-    var summary: String
-    
-    var body: some View {
-        HStack{
-            Text(hint)
-                .font(.largeTitle)
-            
-            VStack(alignment: .leading){
-                Text(title)
-                    .font(.title2)
-                    .fontWeight(.bold)
-                
-                Text(summary)
-                    .font(.subheadline)
-                
-            }
-        }
     }
 }
