@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3908691325D1A3290084D007 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908691225D1A3290084D007 /* ListItem.swift */; };
+		3908692925D322200084D007 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908692825D322200084D007 /* Thing.swift */; };
+		3908692C25D324760084D007 /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908692B25D324760084D007 /* ThingDetail.swift */; };
 		394CF68B25CC4089001AC9A7 /* FavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF68A25CC4089001AC9A7 /* FavoriteThingsApp.swift */; };
 		394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF68C25CC4089001AC9A7 /* ContentView.swift */; };
 		394CF68F25CC4098001AC9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CF68E25CC4098001AC9A7 /* Assets.xcassets */; };
 		394CF69225CC4098001AC9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CF69125CC4098001AC9A7 /* Preview Assets.xcassets */; };
-		394CF69E25CDA8EA001AC9A7 /* Videogames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF69D25CDA8EA001AC9A7 /* Videogames.swift */; };
-		394CF6A225CDA905001AC9A7 /* FriedChicken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF6A125CDA905001AC9A7 /* FriedChicken.swift */; };
-		394CF6A525CDA93B001AC9A7 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394CF6A425CDA93B001AC9A7 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3908691225D1A3290084D007 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		3908692825D322200084D007 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		3908692B25D324760084D007 /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
 		394CF68725CC4089001AC9A7 /* FavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394CF68A25CC4089001AC9A7 /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
 		394CF68C25CC4089001AC9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		394CF68E25CC4098001AC9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394CF69125CC4098001AC9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		394CF69325CC4098001AC9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		394CF69D25CDA8EA001AC9A7 /* Videogames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videogames.swift; sourceTree = "<group>"; };
-		394CF6A125CDA905001AC9A7 /* FriedChicken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriedChicken.swift; sourceTree = "<group>"; };
-		394CF6A425CDA93B001AC9A7 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +39,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3908692E25D325CF0084D007 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3908692825D322200084D007 /* Thing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3908693225D3261A0084D007 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				394CF68C25CC4089001AC9A7 /* ContentView.swift */,
+				3908691225D1A3290084D007 /* ListItem.swift */,
+				3908692B25D324760084D007 /* ThingDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		394CF67E25CC4089001AC9A7 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +76,12 @@
 		394CF68925CC4089001AC9A7 /* FavoriteThings */ = {
 			isa = PBXGroup;
 			children = (
+				3908693225D3261A0084D007 /* Views */,
+				3908692E25D325CF0084D007 /* Model */,
 				394CF68A25CC4089001AC9A7 /* FavoriteThingsApp.swift */,
-				394CF68C25CC4089001AC9A7 /* ContentView.swift */,
 				394CF68E25CC4098001AC9A7 /* Assets.xcassets */,
 				394CF69325CC4098001AC9A7 /* Info.plist */,
 				394CF69025CC4098001AC9A7 /* Preview Content */,
-				394CF69D25CDA8EA001AC9A7 /* Videogames.swift */,
-				394CF6A125CDA905001AC9A7 /* FriedChicken.swift */,
-				394CF6A425CDA93B001AC9A7 /* Anime.swift */,
-				3908691225D1A3290084D007 /* ListItem.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -151,11 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3908691325D1A3290084D007 /* ListItem.swift in Sources */,
-				394CF6A225CDA905001AC9A7 /* FriedChicken.swift in Sources */,
-				394CF6A525CDA93B001AC9A7 /* Anime.swift in Sources */,
+				3908692C25D324760084D007 /* ThingDetail.swift in Sources */,
 				394CF68D25CC4089001AC9A7 /* ContentView.swift in Sources */,
 				394CF68B25CC4089001AC9A7 /* FavoriteThingsApp.swift in Sources */,
-				394CF69E25CDA8EA001AC9A7 /* Videogames.swift in Sources */,
+				3908692925D322200084D007 /* Thing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
