@@ -59,4 +59,13 @@ let favoriteThings = [
             Segment(image: "Climbing",
                     text: "Climbing is fun")
           ])
+    
+    //Position 4 - Kia
+    Thing(hint: "🐶",
+          title: "Kia",
+          summary: "Best dog",
+          segments: [
+            Segment(image: "Kia",
+                    text: "Kia is my best friend")
+          ])
 ]
