@@ -13,15 +13,18 @@ struct ThingDetail: View {
     var body: some View {
         ScrollView(content: {
             
-            
-            Image(someThing.heroImage)
-                .resizable()
-                .padding(.horizontal)
-                .scaledToFit()
-            
-            Text(someThing.details)
-                .padding(.horizontal)
-            
+            ForEach(someThing.segments) { segment in
+                
+                Image(segment.image)
+                    .resizable()
+                    .padding(.horizontal)
+                    .scaledToFit()
+                
+                Text(segment.text)
+                    .padding(.horizontal)
+
+                
+            }
         })
         .navigationTitle(someThing.title)
     }
