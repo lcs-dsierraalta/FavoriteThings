@@ -22,6 +22,7 @@ struct Thing: Identifiable {
 //Make an array of thing instances
 let favoriteThings = [
     
+    //Position 0 - 
     Thing(hint: "🎮",
           title: "Videogames",
           summary: "A fun way to pass time",
@@ -38,5 +39,11 @@ let favoriteThings = [
           title: "Anime",
           summary: "Interesting stories",
           heroImage: "Anime",
-          details: "Recently I started watching a lot of anime, after being convinced by my friends to do so. I never had anything against it, it just didn't call my attention. However, after watching the anime my friends recommended, I found myself searching for more to watch. There are many cool stories and characters to know about, and I also began to really appreaciate storytelling and the different aspects of writing stories.")
+          details: "Recently I started watching a lot of anime, after being convinced by my friends to do so. I never had anything against it, it just didn't call my attention. However, after watching the anime my friends recommended, I found myself searching for more to watch. There are many cool stories and characters to know about, and I also began to really appreaciate storytelling and the different aspects of writing stories."),
+    
+    Thing(hint: "🧗‍♂️",
+          title: "Climbing",
+          summary: "Become strong",
+          heroImage: "Climbing",
+          details: "Climbing is fun")
 ]
