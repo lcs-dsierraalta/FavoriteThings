@@ -14,13 +14,9 @@ struct ContentView: View {
             
             List(favoriteThings) { thing in
 
-                NavigationLink(destination: ThingDetail(heroImage: thing.heroImage,
-                                                        details: thing.details,
-                                                        title: thing.title)) {
+                NavigationLink(destination: ThingDetail(someThing: thing)) {
                     
-                    ListItem(hint: thing.hint,
-                             title: thing.title,
-                             summary: thing.summary)
+                    ListItem(someThing: thing)
                     
                 }
                 
